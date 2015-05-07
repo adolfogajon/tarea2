@@ -7326,15 +7326,6 @@ h2,
 .h2 {
   font-family: "kepler-std", serif;
 }
-.browsehappy {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
-.jumbotron {
-  margin: 50px auto 0 auto;
-}
 .cajalogin {
   border: 1px solid;
   border-color: grey;
@@ -7349,7 +7340,7 @@ h2,
 }
 .header {
   float: left;
-  margin: 10px 0 60px;
+  margin: 10px 0 20px;
   width: 100%;
 }
 .header-left-pannel {
@@ -7407,6 +7398,23 @@ li.no-activo:hover {
   text-decoration: none;
   color: #000;
 }
+.col-sm-8 a {
+  font-size: 22px;
+  color: #999;
+  padding-right: 22px;
+}
+.col-sm-8 a:hover {
+  text-decoration: none;
+  color: #000;
+}
+.col-sm-12 a {
+  font-size: 22px;
+  color: #999;
+}
+.col-sm-12 a:hover {
+  text-decoration: none;
+  color: #000;
+}
 .col-sm-3 p {
   color: #000;
   font-size: 22px;
@@ -7422,12 +7430,14 @@ li.no-activo:hover {
 .col-sm-12 {
   padding-left: 0px !important;
 }
-#intro {
+#intro,
+#intro1,
+#intro2,
+#intro3 {
   font-size: 20px;
   font-family: "kepler-std", serif;
   left: 0;
   line-height: 30px;
-  margin-bottom: 26px;
   position: relative;
   top: 0;
   text-align: justify;
@@ -7436,7 +7446,7 @@ li.no-activo:hover {
 .banners,
 .texto,
 .formulario {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 .pie_backend {
   padding-left: 15px;
@@ -7499,5 +7509,15 @@ li.no-activo:hover {
 form {
   font-family: "kepler-std", serif;
   font-size: 20px;
+}
+.breadcrumb {
+  list-style: outside none none;
+  margin-bottom: 10px;
+  padding: 8px 15px;
+  font-family: "kepler-std", serif;
+  font-size: 20px;
+}
+.home {
+  visibility: hidden;
 }
 /*# sourceMappingURL=/styles/main.css.map */
