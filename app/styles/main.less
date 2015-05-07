@@ -4,6 +4,40 @@
 @import "../bower_components/font-awesome/less/font-awesome.less";
 @fa-font-path: "../fonts/font-awesome";
 
+* {
+    border: 0 none;
+    color: #222222;
+    font-family: "kepler-std",serif;
+    font-feature-settings: inherit;
+    font-kerning: inherit;
+    font-language-override: inherit;
+    font-size: inherit;
+    font-size-adjust: inherit;
+    font-stretch: inherit;
+    font-style: inherit;
+    font-synthesis: inherit;
+    font-variant: inherit;
+    font-weight: 300;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+h1, .h1 {
+    font-family: "kepler-std",serif;
+    font-size: 28px;
+    margin-top: 8px;
+}
+
+h2, .h2 {
+    font-family: "kepler-std",serif;
+}
+
 .browsehappy {
   margin: 0.2em 0; 
   background: #ccc; 
@@ -29,6 +63,86 @@
   padding-right: 15px;
 }
 
+.header {
+    float: left;
+    margin: 10px 0 60px;
+    width: 100%;
+}
+
+.header-left-pannel {
+    float: left;
+    width: 50%;
+    padding-left: 15px;
+}
+
+.header-right-pannel {
+    float: left;
+    width: 50%;
+    margin-top: 35px;
+    padding-left: 120px;
+}
+
+.header-right-inner-pannel {
+    float: left;
+    padding: 0 7px;
+}
+
+.header-nav-pannel {
+    float: left;
+    width: 100%;
+}
+
+ul {
+    list-style: outside none none;
+}
+
+.header-nav-pannel li {
+    display: inline;
+    float: left;
+}
+
+p.activo {
+    border-bottom: #ed5d29 solid 10px;
+}
+
+li.no-activo:hover {
+    border-bottom: #A5CA2C solid 10px;
+}
+
+.header-nav-pannel li a {
+    font-size: 22px;
+    color: #999;
+    padding-right: 22px;
+}
+
+.header-nav-pannel li a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.header-nav-pannel li p {
+    color: #000;
+    font-size: 22px;
+    padding-right: 22px;
+}
+
+.col-sm-3 a {
+    font-size: 22px;
+    color: #999;
+    padding-right: 22px;
+}
+
+.col-sm-3 a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+.col-sm-3 p {
+    color: #000;
+    font-size: 22px;
+    padding-right: 22px;
+}
+
 .input-group {
     margin-bottom: 15px;
 }
@@ -42,6 +156,94 @@
     padding-left: 0px !important;
 }
 
+#intro {
+    font-size: 20px;
+    font-family: "kepler-std",serif;
+    left: 0;
+    line-height: 30px;
+    margin-bottom: 26px;
+//    margin-top: 50px;
+    position: relative;
+    top: 0;
+    text-align: justify;
+}
+
+.slider, .banners, .texto, .formulario {
+    margin-bottom: 30px;
+}
+
 .pie_backend {
     padding-left: 15px;
+}
+
+.texto-intro1 {
+    border-bottom: #ed5d29 solid 3px;
+    padding-bottom: 10px;
+}
+
+.texto-intro2 {
+    border-bottom: #A5CA2C solid 3px;
+    padding-bottom: 10px;
+}
+
+.otro-pie1 {
+    border-right: #ed5d29 solid 3px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.otro-pie2 {
+    border-right: #A5CA2C solid 3px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.proyectos, .texto {
+    font-size: 20px;
+    font-family: "kepler-std",serif;
+}
+
+.texto {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.texto1 {
+    border-left: #ed5d29 solid 3px;
+    padding-left: 10px;
+}
+
+.texto2 {
+    border-right: #A5CA2C solid 3px;
+    padding-bottom: 10px;
+}
+
+.carousel-indicators {
+    bottom: 0;
+}
+
+.banner1 {
+    border-bottom: #ed5d29 solid 3px;
+    padding-bottom: 10px;
+}
+
+.banner2 {
+    border-bottom: #A5CA2C solid 3px;
+    padding-bottom: 10px;
+}
+
+.proyectos a {
+    font-size: 22px;
+    color: #999;
+    padding-right: 22px;
+}
+
+.proyectos a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+form {
+    font-family: "kepler-std",serif;
+    font-size: 20px;
 }
